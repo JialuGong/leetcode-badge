@@ -5,14 +5,20 @@
 > a tool help you show your leetcode ranking | skills | others
 
 ### How to use?
-- For users
-  `http://yourserver:yourport/{your-leetcode-name}/ranking`<br>
+- #### For users
+  `http://yourserver:yourport/{your-leetcode-name}/{type}`<br>
+  
+  ##### types
+  - ranking
+  - ratio
+  - rate
+  - globalContest
+  - localContest
   
   Then you will get a badge like this 
 
-  ![badge](./.image/badge.svg)
 
-- For developer
+- #### For developer
   ```shell
   $ git clone
   # For develop
