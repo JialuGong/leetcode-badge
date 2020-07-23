@@ -2,6 +2,8 @@
 
 # Leetcode Badge
 
+![Node.js CI](https://github.com/JialuGong/leetcode-badge/workflows/Node.js%20CI/badge.svg)
+
 > a tool help you show your leetcode ranking | skills | others
 
 ### How to use?
