@@ -1,5 +1,5 @@
 const superagent = require('superagent')
-
+const fs=require('fs')
 
 /**
  * 
@@ -17,7 +17,11 @@ const leetcodeCrawl = (username) => {
                 if (err) {
                     reject(err)
                 }
-
+                fs.writeFile('./index.json',res.text,(err)=>{
+                    if(err){
+                        console.log(err)
+                    }
+                })
                 resolve(res.text)
 
 
